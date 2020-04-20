@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@font-face {
+  font-family: SerifGothicStd;
+  src: url(SerifGothicStd-black.otf);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  line-height: 2.5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+.social-icons img {
+  position: relative;
+  width: 25px;
+}
+
+body {
+  background-image: url(bg.jpg);
+  max-width: 100vw;
+  max-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: white;
+
+  margin: 4vw;
+}
+
+.cover h1 {
+  font-family: SerifGothicStd;
+  font-size: 100px;
+  margin: 500px 0 50px 0;
+}
+
+.cover h6 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 400px;
+  position: relative;
+}
+
+.gridcontainer {
+  justify-items: center;
+}
+
+.whatwedo {
+  display: grid;
+  grid-template-columns: 50px 683px 683px 50px;
+
+  position: absolute;
+  top: 1300px;
+}
+
+.heading {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.div1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.div2 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.whatwedo h1 {
+  font-size: 44px;
+  font-weight: 500;
+  color: black;
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 17px 17px 17px;
+
+  grid-column-start: 1;
+}
+
+.whatwedo p {
+  font-size: 22px;
+  font-weight: 300;
+  color: black;
+
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 17px 17px 17px;
+}
+
+.roleplaytext {
+  grid-column-end: 4;
+
+  padding: 17px 17px 17px 17px;
+}
+
+.renaissancetext{
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  padding: 17px 17px 17px 17px;
+}
+
+.reviews {
+  background: #e68f82;
+  margin: auto -4vw auto -4vw;
+
+  position: absolute;
+  top: 3000px;
+}
+
+.reviews h1 {
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.airbnb-embed-frame {
+  width:410px;
+  height:300px;
+  margin: 1vw 0 auto 4vw;
+}
+
+.review_grid {
+  display: grid;
+  grid-template-columns: 700px;
+  grid-template-rows: auto;
+  grid-column-start: 1;
+}
+
+p.review_grid {
+  display: flex;
+  justify-content: center;
+}
+
+.right_grid {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  align-items: center;
+  margin: 2vw 0 4vw ;
+}
+
+.social-footer img {
+  width: 25px;
+  margin: 0 25px 0 0;
+}
