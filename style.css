@@ -116,6 +116,8 @@ body {
   display: flex;
   background: #e68f82;
   margin: auto -4vw 2vw -4vw;
+
+  justify-content: space-evenly;
 }
 
 h2 {
@@ -131,29 +133,29 @@ h2 {
 .airbnb-embed-frame {
   width:410px;
   height:300px;
-  margin: 1vw 0 auto 4vw;
+  margin: 1vw 0 2vw 4vw;
 }
 
 .review_grid {
   display: grid;
-  grid-template-columns: 700px;
+  grid-template-columns: 500px 500px;
   grid-template-rows: auto;
   grid-column-start: 1;
 
   margin: auto 4vw auto 4vw;
 }
 
-p.review_grid {
-  display: flex;
-  justify-content: center;
+p.review_text {
+  text-align: center;
+}
+
+p.emoji {
+  font-size: 22px;
 }
 
 .right_grid {
   grid-column-start: 2;
   grid-column-end: 3;
-
-  display: flex;
-  justify-content: center;
 }
 
 footer {
