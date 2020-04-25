@@ -147,12 +147,19 @@ h2 {
 }
 
 p.review_text {
-  font-size: 18px;
-  text-align: center;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .review_emoji {
+  display: grid;
+  text-align: center;
   font-size: 36px;
+}
+
+.review_name {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .right_grid {
