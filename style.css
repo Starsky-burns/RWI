@@ -41,45 +41,32 @@ body {
   margin: 4vw;
 }
 
+.cover {
+  position: absolute;
+}
+
 .cover h1 {
   font-family: SerifGothicStd;
   font-size: 100px;
-  margin: 500px 0 50px 0;
+  top: 200px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .cover h6 {
   font-size: 20px;
   font-weight: 300;
   margin-top: 30px;
-  margin-bottom: 400px;
   position: relative;
-}
-
-.gridcontainer {
-  justify-items: center;
 }
 
 .whatwedo {
   display: grid;
-  grid-template-columns: 50px 683px 683px 50px;
-
-  position: absolute;
-  top: 1300px;
+  grid-template-columns: 683px 683px;
 }
 
 .heading {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.div1 {
   grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.div2 {
-  grid-column-start: 1;
-  grid-column-end: 6;
 }
 
 .whatwedo h1 {
@@ -105,7 +92,7 @@ body {
 }
 
 .roleplaytext {
-  grid-column-end: 4;
+  grid-column-end: 3;
 
   padding: 17px 17px 17px 17px;
 }
@@ -120,9 +107,6 @@ body {
 .reviews {
   background: #e68f82;
   margin: auto -4vw auto -4vw;
-
-  position: absolute;
-  top: 3000px;
 }
 
 .reviews h1 {
