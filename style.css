@@ -141,16 +141,18 @@ h2 {
   grid-template-columns: 500px 500px;
   grid-template-rows: auto;
   grid-column-start: 1;
+  grid-column-gap: 50px;
 
   margin: auto 4vw auto 4vw;
 }
 
 p.review_text {
+  font-size: 18px;
   text-align: center;
 }
 
-p.emoji {
-  font-size: 22px;
+.review_emoji {
+  font-size: 36px;
 }
 
 .right_grid {
