@@ -27,12 +27,6 @@ header {
 }
 
 body {
-  background-image: url(bg.jpg);
-  max-width: 100vw;
-  max-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-
   font-family: 'Poppins', sans-serif;
   background-color: white;
   color: white;
@@ -41,23 +35,29 @@ body {
 }
 
 .cover {
-  padding-top: 700px;
+  padding-top: 35vh;
+  padding-bottom: 15vh;
+
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: -10vw -4vw auto -4vw;
 }
 
 .cover h1 {
   font-family: SerifGothicStd;
-  font-size: 100px;
-  top: 200px;
-  margin-top: 25px;
-  margin-bottom: 50px;
+  font-size: clamp(45px, 5vw, 120px);
+  top: 5vh;
+  margin: 10vw 4vw auto 4vw;
 }
 
 .cover h6 {
-  font-size: 20px;
+  font-size: clamp(19px, 1.5vw, 25px);
   font-weight: 300;
   margin-top: 30px;
   padding-bottom: 400px;
   position: relative;
+  margin: auto 4vw auto 4vw;
 }
 
 .solid {
@@ -102,14 +102,14 @@ body {
 .roleplaytext {
   grid-column-end: 3;
 
-  padding: 17px 17px 17px 17px;
+  padding: 17px;
 }
 
 .renaissancetext{
   grid-column-start: 2;
   grid-column-end: 3;
 
-  padding: 17px 17px 17px 17px;
+  padding: 17px;
 }
 
 .reviews {
@@ -177,4 +177,78 @@ footer {
 .social-footer img {
   width: 25px;
   margin: 0 25px 0 0;
+}
+
+
+@media (max-width: 1555px) {
+  body {
+    margin: 2vw 2vw 2vw 4vw;
+  }
+
+  .whatwedo {
+    grid-template-columns: 75%;
+
+    justify-content: center;
+  }
+
+  .whatwedo h1 {
+    padding: 0;
+    font-size: 8vw;
+    justify-content: center;
+  }
+
+  .whatwedo p {
+    font-size: 4vw;
+    padding: 0;
+  }
+
+  .solid {
+    grid-column-end: 1;
+  }
+
+  .roleplaytext {
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    padding: 17px;
+  }
+
+  .renaissancetext {
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    padding: 17px;
+  }
+
+  .goestext {
+    grid-column-start: 1;
+  }
+
+  .airbnb-embed-frame {
+    display: none;
+  }
+
+  h2 {
+    padding: 4vw;
+    display: flex;
+    font-size: 5vw;
+  }
+
+  .reviews {
+    display: grid;
+  }
+
+  p.review_text {
+    font-size: 4vw;
+  }
+
+  .review_grid {
+    justify-content: center;
+    grid-template-columns: 75%;
+  }
+
+  .right_grid {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
 }
