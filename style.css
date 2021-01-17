@@ -12,6 +12,7 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 
@@ -21,9 +22,33 @@ header {
   margin: 0 25px;
 }
 
+.socials {
+  display: flex;
+  align-items: center;
+}
+
 .social-icons img {
   position: relative;
   width: 25px;
+}
+
+.buy {
+  background-color: orange;
+  color: black;
+  border: 2px solid orange;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: black;
+  color: orange;
 }
 
 body {
@@ -138,7 +163,7 @@ h2 {
 
 .review_grid {
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 400px 400px 400px;
   grid-template-rows: auto;
   grid-column-start: 1;
   grid-column-gap: 50px;
@@ -162,9 +187,14 @@ p.review_text {
   justify-content: flex-end;
 }
 
-.right_grid {
+.center_grid {
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+.left_grid {
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 footer {
@@ -247,7 +277,7 @@ footer {
     grid-template-columns: 75%;
   }
 
-  .right_grid {
+  .center_grid {
     grid-column-start: 1;
     grid-column-end: 1;
   }
