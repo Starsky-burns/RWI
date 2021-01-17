@@ -138,7 +138,7 @@ h2 {
 
 .review_grid {
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 400px 400px 400px;
   grid-template-rows: auto;
   grid-column-start: 1;
   grid-column-gap: 50px;
@@ -162,9 +162,14 @@ p.review_text {
   justify-content: flex-end;
 }
 
-.right_grid {
+.center_grid {
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+.left_grid {
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 footer {
@@ -247,7 +252,7 @@ footer {
     grid-template-columns: 75%;
   }
 
-  .right_grid {
+  .center_grid {
     grid-column-start: 1;
     grid-column-end: 1;
   }
