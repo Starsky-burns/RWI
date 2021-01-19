@@ -1,0 +1,38 @@
+/*  A PLACE TO IMPORT ALL FONTS NEEDED FOR THE PROJECT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+/*  Importing all the local fonts as variations on one family so they can be
+    used like inbuilts & extrernal imports (with modifiers)*/
+@font-face {
+  font-family:      "Serif Gothic";
+  src:              url(SerifGothicStd-Bold.otf);
+  font-stretch:     normal;
+  font-style:       normal;
+  font-weight:      bold;
+}
+
+@font-face {
+  font-family:      "Serif Gothic";
+  src:              url(SerifGothicStd-Light.otf);
+  font-stretch:     normal;
+  font-style:       normal;
+  font-weight:      200;
+}
+
+@font-face {
+  font-family:      "Serif Gothic";
+  src:              url(SerifGothicStd-ExtraBold.otf);
+  font-stretch:     normal;
+  font-style:       normal;
+  font-weight:      800;
+}
+
+@font-face {
+  font-family:      "Serif Gothic";
+  src:              url(SerifGothicStd-Black.otf);
+  font-stretch:     normal;
+  font-style:       normal;
+  font-weight:      900;
+}
