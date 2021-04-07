@@ -1,0 +1,50 @@
+/* This imports all the fonts */
+@import 'fonts/fonts.css';
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons img {
+  position: relative;
+  width: 25px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+  
+    margin: 2vw 4vw 2vw 4vw;
+  }
+
+footer {
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin: 1vw 0 2vw ;
+  }
+  
+  .social-footer img {
+    width: 25px;
+    margin: 0 25px 0 0;
+  }
